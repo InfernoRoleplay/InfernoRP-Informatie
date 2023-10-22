@@ -1,0 +1,52 @@
+# Info
+site_name: InfernoRP Informatie
+site_url: 'https://infernoroleplay.nl/'
+site_description: 'InfernoRP informatie'
+site_author: 'MeetixMedia'
+
+# Repo
+repo_url: 'https://github.com/InfernoRoleplay/InfernoRP-Informatie'
+repo_name: 'InfernoRP/InfenoRP-Informatie'
+edit_uri: 'https://github.com/InfernoRoleplay/InfernoRP-Informatie/tree/main/docs'
+
+# Copyright
+copyright: Copyright &copy; 2023 InfernoRP
+
+site_name: InfernoRP Informatie
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Donkere weergave
+      primary: dark-purple
+      accent: black 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Lichte weergave    
+      primary: dark-purple
+      accent: white
+    #Navigeer
+  nav:
+  - Welkom: index.md
+  - Server regels:
+    - Algemene regels: algemeneregels.md
+    - Offroad voertuigen: offroad.md
+  - Toetscombinaties: keybinds.md
+# Extensions
+
+markdown_extensions:
+  - pymdownx.keys
